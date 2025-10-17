@@ -7,12 +7,14 @@ conexion = sqlite3.connect('empresa.db')
 # Creamos un cursor
 cursor = conexion.cursor()
 
-# Ejecutamos una sentencia
 cursor.execute('''
-	INSERT INTO clientes VALUES(
-		NULL, 'Pedro', 'Piqueras Perez', 'pedro@piquerasperez.com'
-	);
+	SELECT * FROM clientes;
 ''')
+
+filas = cursor.fetchall()
+
+for fila in filas:
+	print(fila)
 
 # Lanzamos la peticion
 conexion.commit()
