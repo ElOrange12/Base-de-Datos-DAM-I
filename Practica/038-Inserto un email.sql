@@ -4,14 +4,14 @@ INSERT INTO emails VALUES(
 	'1'
 );
 
-INSERT INTO emails VALUES(+
+INSERT INTO emails VALUES(
 	NULL,
-	'info@danieloliveiravidal.com'
+	'info@danieloliveiravidal.com',
 	'1'
 ); 
 
 INSERT INTO emails VALUES(+
 	NULL,
-	'elorange12@gmail.com'
+	'elorange12@gmail.com',
 	'1'
 );
