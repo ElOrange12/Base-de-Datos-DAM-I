@@ -1,4 +1,4 @@
-CREATE VIEW personas_correos AS
+CREATE VIEW personas_correos AS 
 
 SELECT
 emails.direccion,
