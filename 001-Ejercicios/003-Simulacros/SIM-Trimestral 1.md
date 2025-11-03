@@ -81,6 +81,7 @@ Ahora quiero insetar un autor de prueba:
 Me aseguro:
 ```
 	SELECT * FROM autores;
+```
 	
 Creo la tabla de entradas:
 
