@@ -1,4 +1,10 @@
+Este código SQL crea una base de datos llamada `blog-simulacro`, diseñada para gestionar autores y entradas de un blog.
 
+Incluye la creación de las tablas `autores` y `entradas`, estableciendo una relación entre ambas mediante una clave foránea.
+
+También se insertan datos de ejemplo y se crea una vista (`vista_entradas`) que muestra la información combinada de las dos tablas, facilitando la consulta de los datos.
+
+El ejercicio aplica conceptos esenciales de modelado relacional, claves primarias y foráneas, y consultas SQL con `JOIN`.
 
 ---
 
@@ -248,4 +254,14 @@ A continuación se muestra un ejemplo de código del ejercicio resuelto:
 	SELECT * FROM vista_entradas;
 ```
 
+**NOTAS:**
+
+- Muy importante el uso de ";" al terminar cada acción
+
 ---	
+
+En resumen, este código demuestra cómo diseñar y relacionar tablas en una base de datos MySQL para representar la estructura de un blog.
+
+Refuerza conceptos como la integridad referencial, el uso de consultas combinadas (`JOIN`) y la creación de vistas para simplificar el acceso a la información.
+
+Es un ejemplo práctico de cómo aplicar SQL para construir y gestionar sistemas de datos reales.
