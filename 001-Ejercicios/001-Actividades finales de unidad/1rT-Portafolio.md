@@ -337,6 +337,8 @@ Y ya estaría todo hecho en el ejercio propuesto.
 
 ---
 
+A continuación se muestra un ejemplo de código del ejercicio resuelto:
+
 ```
 
 -- sudo mysql -u root -p
