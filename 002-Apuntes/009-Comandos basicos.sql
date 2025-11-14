@@ -31,3 +31,5 @@ Rows matched: 1  Changed: 1  Warnings: 0
 
 DELETE FROM clientes
 WHERE dni = '11111111A'
+
+
