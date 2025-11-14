@@ -1,8 +1,7 @@
 SELECT 
 
 nombre,
-apellidos, 
-edad
+apellidos
 
 FROM 
 
