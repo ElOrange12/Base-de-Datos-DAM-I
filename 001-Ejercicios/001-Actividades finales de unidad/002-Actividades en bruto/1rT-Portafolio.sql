@@ -192,7 +192,6 @@ ON piezaportafolio.id_categoria = categoriaportafolio.identificador;
 | Auriculares inalámbricos  | Auriculares Bluetooth con cancelación de ruido y micrófono integrado.        | 2025-11-10 | Tecnología  |
 | Balón de fútbol           | Balón oficial de la liga profesional, hecho con materiales de alta calidad.  | 2025-11-10 | Deportes    |
 | Zapatillas deportivas     | Zapatillas ligeras y cómodas ideales para correr o entrenar.                 | 2025-11-10 | Deportes    |
-| Smartwatch                | Reloj inteligente con monitor de ritmo cardíaco y seguimiento de actividad.  | 2025-11-10 | Tecnología  |
 +---------------------------+------------------------------------------------------------------------------+------------+-------------+
 
 CREATE VIEW vista_piezas AS
@@ -214,7 +213,6 @@ SELECT * FROM vista_piezas;
 | Auriculares inalámbricos  | Auriculares Bluetooth con cancelación de ruido y micrófono integrado.        | 2025-11-10 | Tecnología  |
 | Balón de fútbol           | Balón oficial de la liga profesional, hecho con materiales de alta calidad.  | 2025-11-10 | Deportes    |
 | Zapatillas deportivas     | Zapatillas ligeras y cómodas ideales para correr o entrenar.                 | 2025-11-10 | Deportes    |
-| Smartwatch                | Reloj inteligente con monitor de ritmo cardíaco y seguimiento de actividad.  | 2025-11-10 | Tecnología  |
 +---------------------------+------------------------------------------------------------------------------+------------+-------------+
 
 -- Crea usuario nuevo con contraseña
