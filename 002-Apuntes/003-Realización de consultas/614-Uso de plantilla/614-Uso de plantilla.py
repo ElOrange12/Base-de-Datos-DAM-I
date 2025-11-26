@@ -4,7 +4,7 @@ from flask import Flask,render_template
 conexion = mysql.connector.connect(
 	host="localhost",
 	user="composiciones",
-	password="composiciones",
+	password="Composiciones123$",
 	database="composiciones"
 )                                      
 
@@ -17,4 +17,4 @@ def inicio():
 	return render_template("index.html",datos=filas)
 
 if __name__ == "__main__":
-	app.run(debug=True)
+  app.run(debug=True)
