@@ -1,0 +1,153 @@
+{
+  "formas": [
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "380.661px",
+      "top": "72.8006px",
+      "width": "",
+      "height": "",
+      "entityName": "Persona",
+      "properties": [
+        {
+          "id": "prop-5",
+          "name": "id"
+        },
+        {
+          "id": "prop-6",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-7",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-8",
+          "name": "email"
+        },
+        {
+          "id": "prop-14",
+          "name": "NUSS"
+        }
+      ]
+    },
+    {
+      "id": "forma-3",
+      "tipo": "entity",
+      "left": "208.301px",
+      "top": "270.057px",
+      "width": "",
+      "height": "",
+      "entityName": "Alumno",
+      "properties": [
+        {
+          "id": "prop-9",
+          "name": "id"
+        },
+        {
+          "id": "prop-11",
+          "name": "matricula"
+        },
+        {
+          "id": "prop-13",
+          "name": "NIA"
+        }
+      ]
+    },
+    {
+      "id": "forma-4",
+      "tipo": "entity",
+      "left": "563.528px",
+      "top": "269.586px",
+      "width": "",
+      "height": "",
+      "entityName": "Profesor",
+      "properties": [
+        {
+          "id": "prop-10",
+          "name": "id"
+        },
+        {
+          "id": "prop-12",
+          "name": "asignatura"
+        }
+      ]
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "828.448px",
+      "top": "298.308px",
+      "width": "",
+      "height": "",
+      "texto": "Objeto"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "48.4697px",
+      "top": "310.075px",
+      "width": "",
+      "height": "",
+      "texto": "Objeto"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}

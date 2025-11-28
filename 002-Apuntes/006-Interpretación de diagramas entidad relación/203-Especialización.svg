@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="655.281300264246" height="384.8749901266658" viewBox="0 0 655.281300264246 384.8749901266658">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="216.9062356387867" y="40" width="220.000035903033" height="146.99999640969665" />
+<line x1="216.9062356387867" y1="65.9999937169692" x2="436.9062715418197" y2="65.9999937169692" stroke="#e5e7eb" stroke-width="1"/>
+<text x="326.9062535903032" y="57.999997307272515" text-anchor="middle">Alumno</text>
+<text x="299.5624928193933" y="85.49999730727251">id</text>
+<text x="299.5624928193933" y="108.49999192181754">matricula</text>
+<text x="299.5624928193933" y="131.49999551212085">apellidos</text>
+<text x="299.5624928193933" y="154.49999910242414">email</text>
+<rect class="shape-entity" x="40" y="243.87498294605922" width="219.99999999999991" height="101.00000718060659" />
+<line x1="40" y1="269.8749901266658" x2="259.9999999999999" y2="269.8749901266658" stroke="#e5e7eb" stroke-width="1"/>
+<text x="149.99999999999994" y="261.87499371696913" text-anchor="middle">Alumno Presencial</text>
+<text x="121.64063218060659" y="289.37499371696913">id</text>
+<text x="121.64063218060659" y="312.37499730727245">asistencia</text>
+<rect class="shape-entity" x="395.28122845818" y="243.85936512666586" width="220.0000718060661" height="101.00000718060659" />
+<line x1="395.28122845818" y1="269.85937230727245" x2="615.281300264246" y2="269.85937230727245" stroke="#e5e7eb" stroke-width="1"/>
+<text x="505.28126436121306" y="261.8593758975758" text-anchor="middle">Alumno Distancia</text>
+<text x="466.73441090303294" y="289.3593758975757">id</text>
+<text x="466.73441090303294" y="312.35937948787904">virtualización</text>
+<path class="conn" d="M 255.018982490763 186.99999640969668 L 199.39193928285584 243.87498294605922" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 399.3966251664502 186.99999640969668 L 455.47494988138004 243.85936512666586" marker-end="url(#arrow-end)" />
+</svg>

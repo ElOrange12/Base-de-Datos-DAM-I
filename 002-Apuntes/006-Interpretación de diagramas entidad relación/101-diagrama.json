@@ -1,0 +1,32 @@
+{
+  "formas": [
+    {
+      "id": "forma-5",
+      "tipo": "entity",
+      "left": "484.958px",
+      "top": "177.547px",
+      "width": "",
+      "height": "",
+      "entityName": "Cliente",
+      "properties": [
+        {
+          "id": "prop-7",
+          "name": "id"
+        },
+        {
+          "id": "prop-8",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-9",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-10",
+          "name": "email"
+        }
+      ]
+    }
+  ],
+  "flechas": []
+}

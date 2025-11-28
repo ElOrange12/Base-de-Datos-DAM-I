@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="979.968764361213" height="401.2499999999999" viewBox="0 0 979.968764361213 401.2499999999999">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="372.1874999999999" y="40" width="219.99999999999991" height="169.99999999999994" />
+<line x1="372.1874999999999" y1="66.00000269272748" x2="592.1874999999998" y2="66.00000269272748" stroke="#e5e7eb" stroke-width="1"/>
+<text x="482.18749999999983" y="58.000001795151654" text-anchor="middle">Persona</text>
+<text x="456.0312499999999" y="85.50000403909121">id</text>
+<text x="456.0312499999999" y="108.49999640969666">nombre</text>
+<text x="456.0312499999999" y="131.49999999999997">apellidos</text>
+<text x="456.0312499999999" y="154.499994614545">email</text>
+<text x="456.0312499999999" y="177.4999982048483">NUSS</text>
+<rect class="shape-entity" x="199.82813218060656" y="237.25000718060653" width="219.99999999999991" height="123.99999281939334" />
+<line x1="199.82813218060656" y1="263.24999640969656" x2="419.8281321806065" y2="263.24999640969656" stroke="#e5e7eb" stroke-width="1"/>
+<text x="309.82813218060653" y="255.2499999999999" text-anchor="middle">Alumno</text>
+<text x="282.4843893612132" y="282.7499999999999">id</text>
+<text x="282.4843893612132" y="305.7500035903032">matricula</text>
+<text x="282.4843893612132" y="328.7499892290899">NIA</text>
+<rect class="shape-entity" x="555.0468175551468" y="236.78125718060653" width="220.0000718060661" height="101.00000718060659" />
+<line x1="555.0468175551468" y1="262.78124640969656" x2="775.046889361213" y2="262.78124640969656" stroke="#e5e7eb" stroke-width="1"/>
+<text x="665.0468534581798" y="254.7812499999999" text-anchor="middle">Profesor</text>
+<text x="634.4375143612131" y="282.2812499999999">id</text>
+<text x="634.4375143612131" y="305.2812535903032">asignatura</text>
+<rect class="shape-rect" x="819.968764361213" y="265.5000035903032" width="119.99999999999996" height="39.99998204848344" rx="4" ry="4" />
+<text x="879.968764361213" y="289.4999946145449" text-anchor="middle">Objeto</text>
+<rect class="shape-rect" x="40" y="277.2656249999999" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="99.99999999999997" y="301.2656249999999" text-anchor="middle">Objeto</text>
+<path class="conn" d="M 398.1097613326607 209.99999999999994 L 371.1554203630824 237.25000718060653" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 577.9659341217756 209.99999999999994 L 608.1431914931999 236.78125718060647" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 775.046889361213 286.3695838724041 L 819.968764361213 285.9972727605135" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 199.82813218060656 298.20971579540696 L 159.99999999999997 297.83305470630694" marker-end="url(#arrow-end)" />
+</svg>
