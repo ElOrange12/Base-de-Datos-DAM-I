@@ -1,0 +1,111 @@
+{
+  "formas": [
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "303.807px",
+      "top": "303.757px",
+      "width": "",
+      "height": "",
+      "entityName": "Asignatura",
+      "properties": [
+        {
+          "id": "prop-6",
+          "name": "id"
+        },
+        {
+          "id": "prop-7",
+          "name": "titulo"
+        },
+        {
+          "id": "prop-8",
+          "name": "descripcion"
+        }
+      ]
+    },
+    {
+      "id": "forma-3",
+      "tipo": "entity",
+      "left": "582.908px",
+      "top": "164.675px",
+      "width": "",
+      "height": "",
+      "entityName": "Telefono",
+      "properties": [
+        {
+          "id": "prop-9",
+          "name": "id"
+        },
+        {
+          "id": "prop-10",
+          "name": "id_alumno"
+        },
+        {
+          "id": "prop-11",
+          "name": "id_asignatura"
+        },
+        {
+          "id": "prop-12",
+          "name": "atributo"
+        }
+      ]
+    },
+    {
+      "id": "forma-4",
+      "tipo": "entity",
+      "left": "305.997px",
+      "top": "104.179px",
+      "width": "",
+      "height": "",
+      "entityName": "Alumno",
+      "properties": [
+        {
+          "id": "prop-13",
+          "name": "id"
+        },
+        {
+          "id": "prop-14",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-15",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-16",
+          "name": "email"
+        }
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-13",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": "prop-10",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": "prop-6",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": "prop-11",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}

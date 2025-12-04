@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760.921963778409" height="412.453086159446" viewBox="0 0 760.921963778409 412.453086159446">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="259.0937943892045" y="40" width="219.99999999999997" height="131.99998335404828" />
+<line x1="259.0937943892045" y1="67.99997503107242" x2="479.0937943892045" y2="67.99997503107242" stroke="#e5e7eb" stroke-width="1"/>
+<text x="369.0937943892045" y="58.99997919256035" text-anchor="middle">Persona</text>
+<text x="343.4375332919034" y="88.49998335404828">id</text>
+<text x="343.4375332919034" y="113.49997641823508">nombre</text>
+<text x="343.4375332919034" y="138.49998335404828">apellidos</text>
+<rect class="shape-entity" x="40" y="263.64060835404825" width="219.99999999999997" height="107.00001109730113" />
+<line x1="40" y1="291.6405972567471" x2="260" y2="291.6405972567471" stroke="#e5e7eb" stroke-width="1"/>
+<text x="150" y="282.64060835404825" text-anchor="middle">Alumno</text>
+<text x="139.20313609730113" y="312.14060557972306">id</text>
+<text x="139.20313609730113" y="337.14060557972306">NIA</text>
+<rect class="shape-entity" x="500.9219082919034" y="265.45310280539775" width="220.00005548650566" height="106.99998335404828" />
+<line x1="500.9219082919034" y1="293.45311945134944" x2="720.921963778409" y2="293.45311945134944" stroke="#e5e7eb" stroke-width="1"/>
+<text x="610.9219360351562" y="284.4531166770242" text-anchor="middle">Profesor</text>
+<text x="581.0156582919034" y="313.9531139026989">id</text>
+<text x="581.0156582919034" y="338.9531139026989">asignatura</text>
+</svg>

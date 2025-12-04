@@ -1,0 +1,66 @@
+{
+  "formas": [
+    {
+      "id": "forma-5",
+      "tipo": "entity",
+      "left": "449.636px",
+      "top": "129.636px",
+      "width": "",
+      "height": "",
+      "entityName": "Persona",
+      "properties": [
+        {
+          "id": "prop-17",
+          "name": "id"
+        },
+        {
+          "id": "prop-18",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-19",
+          "name": "apellidos"
+        }
+      ]
+    },
+    {
+      "id": "forma-6",
+      "tipo": "entity",
+      "left": "230.543px",
+      "top": "353.268px",
+      "width": "",
+      "height": "",
+      "entityName": "Alumno",
+      "properties": [
+        {
+          "id": "prop-20",
+          "name": "id"
+        },
+        {
+          "id": "prop-23",
+          "name": "NIA"
+        }
+      ]
+    },
+    {
+      "id": "forma-7",
+      "tipo": "entity",
+      "left": "691.453px",
+      "top": "355.082px",
+      "width": "",
+      "height": "",
+      "entityName": "Profesor",
+      "properties": [
+        {
+          "id": "prop-21",
+          "name": "id"
+        },
+        {
+          "id": "prop-22",
+          "name": "asignatura"
+        }
+      ]
+    }
+  ],
+  "flechas": []
+}

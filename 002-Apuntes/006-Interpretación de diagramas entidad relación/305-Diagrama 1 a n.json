@@ -1,0 +1,70 @@
+{
+  "formas": [
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "295.634px",
+      "top": "176.491px",
+      "width": "",
+      "height": "",
+      "entityName": "Cliente",
+      "properties": [
+        {
+          "id": "prop-6",
+          "name": "id"
+        },
+        {
+          "id": "prop-7",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-8",
+          "name": "apellidos"
+        }
+      ]
+    },
+    {
+      "id": "forma-3",
+      "tipo": "entity",
+      "left": "582.908px",
+      "top": "164.675px",
+      "width": "",
+      "height": "",
+      "entityName": "Telefono",
+      "properties": [
+        {
+          "id": "prop-9",
+          "name": "id"
+        },
+        {
+          "id": "prop-10",
+          "name": "id_cliente"
+        },
+        {
+          "id": "prop-11",
+          "name": "tipo"
+        },
+        {
+          "id": "prop-12",
+          "name": "numero"
+        }
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": "prop-6",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": "prop-10",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
