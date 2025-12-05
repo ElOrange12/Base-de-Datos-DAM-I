@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="798.5468546549475" height="318.89058430989576" viewBox="0 0 798.5468546549475 318.89058430989576">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="40" y="158.12498304578983" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="99.99999999999997" y="182.12498304578983" text-anchor="middle">Login</text>
+<rect class="shape-rect" x="229.6562364366319" y="158.3437262641058" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="289.6562364366319" y="182.3437262641058" text-anchor="middle">Comprobación</text>
+<rect class="shape-rect" x="422.9843817816839" y="91.67187160915796" width="119.99999999999996" height="39.999999999999986" rx="19.999999999999993" ry="19.999999999999993" />
+<text x="482.9843817816839" y="115.67187160915796" text-anchor="middle">Exito</text>
+<rect class="shape-rect" x="638.5468546549478" y="40" width="119.99999999999996" height="39.99998304578992" rx="4" ry="4" />
+<text x="698.5468546549478" y="63.99999152289496" text-anchor="middle">Panel</text>
+<rect class="shape-rect" x="424.6406046549478" y="238.8906012641058" width="119.99999999999996" height="39.99998304578992" rx="19.99999152289496" ry="19.99999152289496" />
+<text x="484.6406046549478" y="262.89059278700074" text-anchor="middle">No exito</text>
+<path class="conn" d="M 160 178.19418505752193 L 229.6562364366319 178.2745242523737" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 542.9843817816839 97.2894386937657 L 638.5468546549475 74.38242443828722" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 347.65016696266827 158.3437262641058 L 424.99045125564754 131.67187160915793" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 338.07137078897637 198.3437262641058 L 436.22549082361223 238.8906012641058" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 424.6406046549477 246.29198378465733 L 160 190.72359204813327" marker-end="url(#arrow-end)" />
+</svg>
