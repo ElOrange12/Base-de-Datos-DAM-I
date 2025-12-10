@@ -1,0 +1,47 @@
+/* Estilos generales */
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+body{
+	display:flex;
+}
+nav{
+	flex:1;
+	background:darkorange;
+}
+main{
+	flex:4;
+	background:white;
+}
+/* Estilos del menu */
+nav{
+	display:flex;
+	padding:20px;
+	flex-direction:column;
+	gap:20px;
+}
+nav button{
+	background:black;
+	border:none;
+	color:darkorange;
+	padding:10px;
+}
+/* Estilos de la tabla */
+main{
+	padding:20px;
+}
+table{
+	width:100%;
+	border:1px solid darkorange;
+	border-collapse:collapse;
+}
+table th{
+	background:darkorange;
+	color:black;
+}
+table td,table th{
+	padding:5px;
+}
