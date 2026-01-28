@@ -1,0 +1,28 @@
+{
+	"datos_personales":{
+		"nombre":"Daniel",
+		"apellidos":"Oliveira Vidal",
+		"correo":"info@elorange12.com",
+		"telefonos":["653563", "5432234"]
+	},
+	"experiencias_laborales":[
+		{
+			"titulo":"Asistente de Infromática",
+			"empresa":"Colegio Ntra. Sra. de Fátima",
+			"timespan":"2023-2025",
+			"descripción":"Apoyo en el mantenimiento y configuración de equipos informáticos, puesta a punto de ordenadores para uso en clase e instalación de sistemas operativos"
+		}
+	],
+	"formación":[
+		{
+			"titulo":"Grado Superior DAM",WW
+			"centro":"CEAC",
+			"timespan":"2025-Presente"
+		},
+		{
+			"titulo":"Bachillerato - Ciencias Tecnológicas",
+			"centro":"Colegio Ntra. Sra. de Fátima",
+			"timespan":"2023-2025"
+		}
+	]
+}
