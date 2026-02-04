@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			canvas{border:1px solid gray;}
+		</style>
+	</head>
+	<body>
+		<canvas></canvas>
+		<script>
+			let lienzo = document.querySelector("canvas");
+			let contexto = lienzo.getContext("2d");
+			lienzo.width = 256
+			lienzo.height = 256
+			contexto.fillText("Este es el titulo de la gráfica",128,5)
+			let datos = [25,25,25]
+			let suma = 0
+			datos.forEach(function(dato){
+				suma += dato
+			})
+			let cursor = 0
+			console.log(suma)
+			
+			datos.forEach(function(dato){
+				let cacho = dato/suma
+				
+				let rojo = Math.round(Math.random()*255)
+				let verde = Math.round(Math.random()*255)
+				let azul = Math.round(Math.random()*255)
+				
+				contexto.fillStyle = `rgb(${rojo},${verde},${azul})`;
+				
+				const inicio = Math.PI * 2 * cursor;
+        		const fin = Math.PI * 2 * (cursor + cacho);
+				
+				contexto.beginPath()
+				contexto.moveTo(128,128)
+				contexto.arc(128,128,100,inicio,fin)
+				contexto.closePath()
+				contexto.fill()
+				cursor += cacho // Actualizo la posición del cursor
+			})
+		</script>
+	</body>
+</html>
