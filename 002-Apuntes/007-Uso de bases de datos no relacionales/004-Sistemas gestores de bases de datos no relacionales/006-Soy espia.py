@@ -29,4 +29,4 @@ print("Guardado: texto_escondido.png")
 print("Códigos:")
 for letra in texto:
     print(ord(letra))
-
+	
